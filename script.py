@@ -45,7 +45,7 @@ def create_folder_structure(root_folder):
 
         # Create Table of Contents for Root Folder
         with open(os.path.join(root_folder, 'README.md'), 'w', encoding='utf-8') as root_readme_file:
-            root_readme_file.write(f"# {root_folder}\n\n## Table_of_Contents\n")
+            root_readme_file.write(f"# {root_folder}\n\n## Sumário\n")
             for section in sections:
                 lines = section.split('\n')
                 folder_name = lines[0].strip()
