@@ -28,4 +28,4 @@ Repositório para aprender linguagens, passando por todas as partes essenciais d
 
 # Linguagens
 
-- C++[C++](./C++/README.md)
+- [C++](./C++/README.md)

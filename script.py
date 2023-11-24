@@ -55,7 +55,7 @@ def create_folder_structure(root_folder):
 
         # Add link to the root README
         with open(readme_path, 'a', encoding='utf-8') as main_readme_file:
-            main_readme_file.write(f"- {root_folder}[{root_folder}](./{root_folder}/README.md)\n")
+            main_readme_file.write(f"- [{root_folder}](./{root_folder}/README.md)\n")
 
 # Example Usage:
 root_directory_name = input("Digite o nome da linguagem: ")
