@@ -58,5 +58,5 @@ def create_folder_structure(root_folder):
             main_readme_file.write(f"- {root_folder}[{root_folder}](./{root_folder}/README.md)\n")
 
 # Example Usage:
-root_directory_name = input("Enter the root directory name: ")
+root_directory_name = input("Digite o nome da linguagem: ")
 create_folder_structure(root_directory_name)
