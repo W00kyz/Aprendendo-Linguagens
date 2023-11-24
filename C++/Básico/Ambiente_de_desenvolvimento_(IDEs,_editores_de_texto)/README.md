@@ -1,2 +1,3 @@
 # Ambiente de desenvolvimento (IDEs, editores de texto)
 
+O ambiente de desenvolvimento C++ comumente adotado inclui a IDE Visual Studio Code, o compilador GCC ou Clang, e a ferramenta de build CMake. Para encontrar projetos de terceiros. A utilização eficiente do CMake permite a integração suave desses projetos ao seu ambiente de desenvolvimento, proporcionando flexibilidade e escalabilidade. Adaptar essas ferramentas conforme necessário oferece um fluxo de trabalho ágil e eficaz no desenvolvimento em C++.
