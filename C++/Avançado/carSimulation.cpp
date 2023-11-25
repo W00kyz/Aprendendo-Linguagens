@@ -17,7 +17,7 @@ private:
     float rearTrack = 50.f;
     float turn = 30.f;
     float enginePower = 150.f;
-    float maxAcceleration = 300.f;
+    float maxAcceleration = 100.f;
     float maxVelocity = 600.f;
 
     // Not Changeble Values
@@ -52,6 +52,8 @@ public:
         } else {
             acceleration = 0;
         }
+        acceleration = std::max(-maxAcceleration, std::min(acceleration, maxAcceleration));
+
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
             steering = turn;
         }
